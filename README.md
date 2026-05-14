@@ -3,10 +3,10 @@
 This repository contains a modular pipeline to evaluate Indirect Prompt Injection vulnerabilities in LLM-integrated applications, inspired by the paper *"Not What You've Signed Up For"*.
 
 ## Architecture & Team Responsibilities
-* **`/data` (Muntaka):** Input layer containing benign and poisoned JSON datasets.
-* **`/core` (Zesrab):** The core LLM engine using `ollama` and the strict prompt builder.
-* **`/execution` (Sayma):** The simulator that runs the payloads against the engine.
-* **`/analytics` (Rabbi):** Calculates Attack Success Rate (ASR) and outputs results.
+* **`/data`** Input layer containing benign and poisoned JSON datasets.
+* **`/core`** The core LLM engine using `ollama` and the strict prompt builder.
+* **`/execution`** The simulator that runs the payloads against the engine.
+* **`/analytics`** Calculates Attack Success Rate (ASR) and outputs results.
 
 ## Quick Start
 1. Ensure [Ollama](https://ollama.com/) is installed and running locally.
